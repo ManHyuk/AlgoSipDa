@@ -28,7 +28,7 @@ public class bj2309 {
             if(flag) break;
 
             for (int j = 0; j < 9; j++) {
-                
+
                 int exp1 = input[i];
                 int exp2 = input[j];
 
