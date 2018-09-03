@@ -1,4 +1,4 @@
-package mh;
+package problems;
 
 import java.util.Scanner;
 
