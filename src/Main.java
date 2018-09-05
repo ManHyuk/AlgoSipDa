@@ -13,7 +13,9 @@ public class Main {
 //        problems.bj11719.exec();
 //        problems.bj11720.exec();
 //        problems.bj11721.solve();
-        problems.bj10818.solve();
+//        problems.bj10818.solve();
+//        problems.bj2609.solve();
+//        problems.bj9613.solve();
 
     }
 }
