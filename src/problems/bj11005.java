@@ -13,7 +13,7 @@ public class bj11005 {
     }
 
 
-    static String convert(int x, int y) {
+    private static String convert(int x, int y) {
 
         String result = "";
         while (x > 0) {
