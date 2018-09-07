@@ -14,24 +14,24 @@ public class bj11653 {
 
     private static void primeFactorization(int N) {
 
-//        for (int i = 2; i*i < N; i++) {
-//            while (N % i == 0) {
-//                System.out.println(i);
-//                N /= i;
-//            }
-//        }
-//        if (N > 1) {
-//            System.out.println(N);
-//        }
-
-        while (N != 1) {
-            for (int i = 2; i < N; i++) {
-                if (N % i == 0) {
-                    N /= i;
-                    System.out.println(i);
-                    break;
-                }
+        for (int i = 2; i < N; i++) {
+            while (N % i == 0) {
+                System.out.println(i);
+                N /= i;
             }
         }
+        if (N > 1) {
+            System.out.println(N);
+        }
+
+//        while (N != 1) {
+//            for (int i = 2; i < N; i++) {
+//                if (N % i == 0) {
+//                    N /= i;
+//                    System.out.println(i);
+//                    break;
+//                }
+//            }
+//        }
     }
 }
