@@ -23,7 +23,8 @@ public class Main {
 //        problems.bj11653.solve();
 //        problems.bj10872.solve();
 //        problems.bj1676.solve();
-        problems.bj10828.solve();
-
+//        problems.bj10828.solve();
+//        problems.bj9012.solve();
+        problems.bj10799.solve();
     }
 }
