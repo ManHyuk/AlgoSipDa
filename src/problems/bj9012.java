@@ -1,6 +1,5 @@
 package problems;
 
-public class bj9012 {
 import java.util.Scanner;
 import java.util.Stack;
 
