@@ -28,6 +28,10 @@ public class Main {
 //        problems.bj10799.solve();
 //        problems.bj1476.solve();
 //        problems.bj1463.solve();
-        problems.bj11726.solve();
+//        problems.bj11726.solve();
+//        problems.bj9095.solve();
+//        problems.bj11052.solve();
+        problems.bj10844.solve();
+
     }
 }
