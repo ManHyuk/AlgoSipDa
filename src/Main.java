@@ -34,7 +34,7 @@ public class Main {
 //        problems.bj10844.solve();
 //        problems.bj10972.solve();
 //        problems.bj10973.solve();
-        problems.bj10974.solve();
-
+//        problems.bj10974.solve();
+        problems.bj1107.solve();
     }
 }
