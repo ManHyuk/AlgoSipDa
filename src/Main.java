@@ -39,6 +39,9 @@ public class Main {
 //        problems.bj10819.solve();
 //        problems.bj10971.solve();
 //        problems.bj1697.solve();
-        problems.bj1963.solve();
+//        problems.bj1963.solve();
+//        problems.bj9019.solve();
+//        problems.bj1525.solve();
+
     }
 }
