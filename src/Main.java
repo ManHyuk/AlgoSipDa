@@ -44,6 +44,9 @@ public class Main {
 //        problems.nnnnn.solve();
 //        problems.HackerRank.diagonal_difference();
 //        problems.HackerRank.plus_minus.solve();
-        problems.HackerRank.staircase.solve();
+//        problems.HackerRank.staircase.solve();
+//        problems.HackerRank.simple_array_sum.solve();
+//        problems.HackerRank.mini_max_sum.solve();
+        problems.HackerRank.birthday_cake_candles.solve();
     }
 }
