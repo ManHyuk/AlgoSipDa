@@ -1,0 +1,44 @@
+package problems.HackerRank;
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class counting_valleys {
+
+    static int countingValleys(int n, String s) {
+        int tmp = 0;
+        int count = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (s.charAt(i) == 'U') {
+                tmp += 1;
+                if (tmp == 0) {
+                    count++;
+                }
+            } else {
+                tmp -= 1;
+            }
+        }
+        return count;
+    }
+
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void solve() throws IOException {
+//        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
+        int n = scanner.nextInt();
+        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
+        String s = scanner.nextLine();
+
+        int result = countingValleys(n, s);
+
+//        bufferedWriter.write(String.valueOf(result));
+//        bufferedWriter.newLine();
+//
+//        bufferedWriter.close();
+
+        scanner.close();
+    }
+}
