@@ -6,10 +6,36 @@ import java.util.Scanner;
 public class repeated_string {
     static long repeatedString(String s, long n) {
 
-        Long result = 0L;
+        char firstChar = s.charAt(0);
 
+        String addedString = "";
+        for (int i = 0; i < n; i++) {
+            addedString += s;
+        }
+        String subStr = addedString.substring(0, (int) n);
 
-        return 0L;
+        Long count = 0L;
+        for (int i = 0; i < subStr.length(); i++) {
+            if (subStr.charAt(i) == firstChar) {
+                count++;
+            }
+        }
+        System.out.println(count);
+
+//        long count =0;
+//        for(char c : s.toCharArray())
+//            if(c == 'a')
+//                count++;
+//
+//        long factor = (n/s.length());
+//        long rem = (n%s.length());
+//        count =  factor*count  ;
+//        for(int i=0;i<rem;i++)
+//            if(s.charAt(i)=='a')
+//                count++;
+//        System.out.println(count);
+
+        return count;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
