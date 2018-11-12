@@ -49,7 +49,8 @@ public class Main {
 //        problems.HackerRank.mini_max_sum.solve();
 //        problems.HackerRank.birthday_cake_candles.solve();
 //        problems.HackerRank.sock_merchant.solve();
-        problems.HackerRank.counting_valleys.solve();
+//        problems.HackerRank.counting_valleys.solve();
+        problems.HackerRank.jumping_on_the_clouds.solve();
 
     }
 }
