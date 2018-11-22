@@ -52,6 +52,10 @@ public class Main {
 //        problems.HackerRank.counting_valleys.solve();
 //        problems.HackerRank.jumping_on_the_clouds.solve();
 //        problems.HackerRank.repeated_string.solve();
-        problems.HackerRank.time_conversion.solve();
+//        problems.HackerRank.time_conversion.solve();
+//        problems.HackerRank.data_types_30.solve();
+//        problems.HackerRank.operators_30.exec();
+        problems.HackerRank.grading.solve();
+
     }
 }
