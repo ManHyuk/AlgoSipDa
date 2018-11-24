@@ -60,7 +60,10 @@ public class Main {
 //        problems.HackerRank.kangaroo.solve();
 //        problems.HackerRank.between_two_sets.solve();
 //        problems.HackerRank.breaking_best_and_worst_records.solve();
-        problems.HackerRank.conditional_statements_30.solve();
+//        problems.HackerRank.conditional_statements_30.solve();
+//        problems.HackerRank.the_birthday_bar.solve();
+//        problems.HackerRank.divisible_sum_pairs.solve();
+        problems.HackerRank.migratory_birds.solve();
 
     }
 }
