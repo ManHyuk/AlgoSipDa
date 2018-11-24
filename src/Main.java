@@ -63,7 +63,8 @@ public class Main {
 //        problems.HackerRank.conditional_statements_30.solve();
 //        problems.HackerRank.the_birthday_bar.solve();
 //        problems.HackerRank.divisible_sum_pairs.solve();
-        problems.HackerRank.migratory_birds.solve();
+//        problems.HackerRank.migratory_birds.solve();
+        problems.HackerRank.bon_appetit.solve();
 
     }
 }
