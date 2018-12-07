@@ -64,7 +64,13 @@ public class Main {
 //        problems.HackerRank.the_birthday_bar.solve();
 //        problems.HackerRank.divisible_sum_pairs.solve();
 //        problems.HackerRank.migratory_birds.solve();
-        problems.HackerRank.bon_appetit.solve();
-
+//        problems.HackerRank.bon_appetit.solve();
+//        problems.HackerRank.loops_30.solve();
+//        problems.HackerRank.review_loop_30.solve();
+//        problems.HackerRank.arrays_30.solve();
+//        problems.HackerRank.dictionaries_and_maps_30.solve();
+//        problems.HackerRank.recursion_30.solve();
+//        problems.HackerRank.binary_numbers_30.solve();
+        problems.HackerRank.arrays_2d_30.solve();
     }
 }
