@@ -71,6 +71,7 @@ public class Main {
 //        problems.HackerRank.dictionaries_and_maps_30.solve();
 //        problems.HackerRank.recursion_30.solve();
 //        problems.HackerRank.binary_numbers_30.solve();
-        problems.HackerRank.arrays_2d_30.solve();
+//        problems.HackerRank.arrays_2d_30.solve();
+        problems.HackerRank.linked_list_30.solve();
     }
 }
