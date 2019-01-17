@@ -1,7 +1,7 @@
 import problems.*;
 
 public class Main {
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
 //        problems.BOJ.bj2309.exec();
 //        problems.BOJ.bj2747.exec();
 //        problems.BOJ.bj11723.exec();
@@ -72,6 +72,9 @@ public class Main {
 //        problems.HackerRank.recursion_30.solve();
 //        problems.HackerRank.binary_numbers_30.solve();
 //        problems.HackerRank.arrays_2d_30.solve();
-        problems.HackerRank.linked_list_30.solve();
+//        problems.HackerRank.linked_list_30.solve();
+//        problems.HackerRank.day_of_programmer.solve();
+        problems.BOJ.bj2667.solve();
+
     }
 }
