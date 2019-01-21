@@ -74,7 +74,8 @@ public class Main {
 //        problems.HackerRank.arrays_2d_30.solve();
 //        problems.HackerRank.linked_list_30.solve();
 //        problems.HackerRank.day_of_programmer.solve();
-        problems.BOJ.bj2667.solve();
+//        problems.BOJ.bj2667.solve();
+        problems.BOJ.bj1065.solve();
 
     }
 }
