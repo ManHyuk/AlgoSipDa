@@ -84,6 +84,7 @@ public class Main {
 //        problems.BOJ.bj4344.solve();
 //        problems.BOJ.bj1110.solve();
 //        problems.BOJ.bj2292.solve();
-        problems.BOJ.bj11654.solve();
+//        problems.BOJ.bj11654.solve();
+        problems.BOJ.bj10809.solve();
     }
 }
