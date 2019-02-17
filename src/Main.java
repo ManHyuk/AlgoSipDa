@@ -88,6 +88,7 @@ public class Main {
 //        problems.BOJ.bj10809.solve();
 //        problems.BOJ.bj2675.solve();
 //        problems.BOJ.bj14501.solve();
-        problems.BOJ.bj1182.solve();
+//        problems.BOJ.bj1182.solve();
+        combination.exce();
     }
 }
