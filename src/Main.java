@@ -90,6 +90,7 @@ public class Main {
 //        problems.BOJ.bj14501.solve();
 //        problems.BOJ.bj1182.solve();
 //        combination.exce();
-        problems.BOJ.bj6603.solve();
+//        problems.BOJ.bj6603.solve();
+        problems.BOJ.bj4948.solve();
     }
 }
