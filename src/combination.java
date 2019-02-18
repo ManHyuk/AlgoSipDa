@@ -2,20 +2,27 @@ import java.util.Arrays;
 
 public class combination {
 
-
+    static int[] arr;
+    static int[] combArr;
 
     public static void exce() throws Exception {
 
-        int[] arr = {1, 2, 3};
+        arr = new int[49];
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = i+1;
+        }
+
         int n = arr.length; // nCr
         int r = 2;
-        int[] combArr = new int[arr.length];
 
 
-        doCombination(combArr, n, r, 0, 0, arr);
+        combArr = new int[n];
+
+        doCombination(n, r, 0, 0);
     }
 
-    static void doCombination(int[] combArr, int n, int r, int index, int target, int[] arr) {
+    static void doCombination(int n, int r, int index, int target) {
 
         if (r == 0) {
             for (int i = 0; i < index; i++) {
@@ -29,8 +36,8 @@ public class combination {
 
             combArr[index] = target;
 
-            doCombination(combArr, n, r - 1, index + 1, target + 1, arr);
-            doCombination(combArr, n, r, index, target + 1, arr);
+            doCombination(n, r - 1, index + 1, target + 1);
+            doCombination(n, r, index, target + 1);
 
         }
     }
