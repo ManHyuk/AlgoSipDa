@@ -1,6 +1,6 @@
 package problems.BOJ;
 
-import java.util.Map;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class bj5543 {
@@ -16,10 +16,12 @@ public class bj5543 {
         for (int i = 0; i < 2; i++) {
             sides[i] = sc.nextInt();
         }
-        int min = 0;
+        int minSideCost = Math.min(sides[0], sides[1]);
+
+        int min = 20001;
         for (int bugger : buggers) {
             min = Math.min(min, bugger);
         }
-        System.out.println(min);
+        System.out.println(min + minSideCost - 50);
     }
 }
