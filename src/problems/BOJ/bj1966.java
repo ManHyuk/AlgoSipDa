@@ -1,8 +1,6 @@
 package problems.BOJ;
 
 
-
-
 import java.util.*;
 
 
@@ -37,14 +35,14 @@ public class bj1966 {
             while (!q.isEmpty()) {
                 Node node = q.poll();
 
-                boolean check = true;
+                boolean check = false;
                 for (Node item : q) {
                     if (item.priority > node.priority) {
-                        check = false;
+                        check = true;
                     }
                 }
 
-                if (check) {
+                if (!check) {
                     count += 1;
                     if (node.index == M) {
                         break;
