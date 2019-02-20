@@ -1,5 +1,7 @@
 package problems.BOJ;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class bj1260 {
@@ -24,16 +26,42 @@ public class bj1260 {
             mat[x][y] = mat[y][x] = 1;
         }
         DFS(startIdx);
+        for (int i = 0; i < isVisited.length; i++) {
+            isVisited[i] = false;
+        }
+
+        System.out.println();
+        BFS(startIdx);
     }
 
     static void DFS(int v) {
 
+        System.out.print(v+" ");
         isVisited[v] = true;
-        System.out.println(v);
+
         for (int i = 1; i <= m; i++) {
             if (!isVisited[i] && mat[v][i] == 1) {
                 DFS(i);
             }
         }
+    }
+
+    static void BFS(int v) {
+        Queue<Integer> q = new LinkedList<>();
+
+        q.offer(v);
+        while (!q.isEmpty()) {
+            int temp = q.poll();
+            isVisited[temp] = true;
+            System.out.print(temp + " ");
+            for (int i = 0; i <= n; i++) {
+                if (mat[temp][i] == 1 && !isVisited[i]) {
+                    q.offer(i);
+                    isVisited[i] =true;
+                }
+            }
+
+        }
+
     }
 }
