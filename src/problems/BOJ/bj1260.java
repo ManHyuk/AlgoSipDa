@@ -62,6 +62,5 @@ public class bj1260 {
             }
 
         }
-
     }
 }
