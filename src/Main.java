@@ -100,6 +100,7 @@ public class Main {
 //        problems.BOJ.bj2231.solve();
 //        problems.BOJ.bj14888.solve();
 //        problems.BOJ.bj2563.solve();
-        problems.BOJ.bj10798.solve();
+//        problems.BOJ.bj10798.solve();
+        problems.BOJ.bj14502.solve();
     }
 }
