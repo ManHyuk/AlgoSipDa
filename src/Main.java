@@ -102,6 +102,9 @@ public class Main {
 //        problems.BOJ.bj2563.solve();
 //        problems.BOJ.bj10798.solve();
 //        problems.BOJ.bj14502.solve();
-        problems.BOJ.bj5597.solve();
+//        problems.BOJ.bj5597.solve();
+//        problems.combination.exce();
+//        problems.permutation.exce();
+        problems.BOJ.bj10448.solve();
     }
 }
