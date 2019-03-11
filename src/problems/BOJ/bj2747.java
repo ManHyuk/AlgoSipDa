@@ -9,16 +9,31 @@ public class bj2747 {
 
         int input = sc.nextInt();
 
-        System.out.println(fibo(input));
+//        System.out.println(fibo(input));
+        System.out.println(fiboMain(input));
+
     }
 
 
-    private static int fibo(int n) {
+//    private static int fibo(int n) {
+//
+//        if (n == 0 || n == 1) {
+//            return n;
+//        }
+//
+//        return fibo(n-1) + fibo(n-2);
+//    }
 
-        if (n == 0 || n == 1) {
-            return n;
+    static int fiboMain(int n) {
+        return fiboTail(n, 0, 1);
+    }
+
+    static int fiboTail(int n, int before, int next) {
+        if (n == 0) {
+            return before;
         }
-
-        return fibo(n-1) + fibo(n-2);
+        return fiboTail(n-1, next, before + next);
     }
+
+
 }
