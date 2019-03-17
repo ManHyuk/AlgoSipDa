@@ -106,6 +106,7 @@ public class Main {
 //        problems.combination.exce();
 //        problems.permutation.exce();
 //        problems.BOJ.bj10448.solve();
-        problems.BOJ.bj1789.solve();
+//        problems.BOJ.bj1789.solve();
+        problems.BOJ.bj2583.solve();
     }
 }
