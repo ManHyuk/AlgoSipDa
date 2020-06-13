@@ -112,6 +112,7 @@ public class Main {
 //        problems.BOJ.bj11403.solve();
 //        problems.BOJ.bj5522.solve();
 //        problems.BOJ.bj1748.solve();
-        problems.BOJ.bj5576.solve();
+//        problems.BOJ.bj5576.solve();
+        problems.Programmers.pg42862.solution();
     }
 }
