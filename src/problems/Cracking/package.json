@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "buckets-js": "^1.98.2",
+    "fxjs": "^0.21.2"
+  }
+}
